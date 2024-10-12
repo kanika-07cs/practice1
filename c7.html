@@ -25,23 +25,107 @@
         <form>
             <p>Name:<br><input type="text" name="name"></p>
             <p>Username:<br><input type="text" name="user" maxlength="25"></p>
-            <p>Gender:<br><input type="radio" name="option" value="male">Male<input type="radio" name="option" value="female">Female</p>
             <p>Comments:<br><textarea name="comments" cols="30" rows="5" placeholder="Enter your comment"></textarea></p>
-            <p>
-                Hobbies interested at:<br>
-                <input type="checkbox" name="hobby[]" value="photo">Photography
-                <input type="checkbox" name="hobby[]" value="video">Video gaming
-                <input type="checkbox" name="hobby[]" value="music">Listening music
-                <input type="checkbox" name="hobby[]" value="dance">Dancing
-                <input type="checkbox" name="hobby[]" value="garden">gardening
-                <input type="checkbox" name="hobby[]" value="draw">Drawing
-                <input type="checkbox" name="hobby[]" value="novels">Reading novels
-                <input type="checkbox" name="hobby[]" value="sport">Sports
-            </p>
             <p><input type="submit" value="Submit form" name="comment"></p>
         </form>
-        <p><br>to include two or more options use input type="radio" and set name and value to it for memory allocation<br>textarea is 
-        not a selfclosing tag, to include no.of character to be displayed->cols and width of the field->rows<br>to select multiple 
-        option input type="checkbox" name=" []" value=""</p>
+        <p><br>textarea is not a selfclosing tag, to include no.of character to be displayed->cols and width of the field->rows</p>
+        <br>
+        <hr>
+        <h1>Radio,Checkbox,Dropdown list</h1>
+        <form enctype="multipart/form-data">
+        <p>Gender:<br><input type="radio" name="option" value="male">Male<input type="radio" name="option" value="female">Female</p>
+        <p>
+            Hobbies interested at:<br>
+            <input type="checkbox" name="hobby[]" value="photo">Photography
+            <input type="checkbox" name="hobby[]" value="video">Video gaming
+            <input type="checkbox" name="hobby[]" value="music">Listening music
+            <input type="checkbox" name="hobby[]" value="dance">Dancing
+            <input type="checkbox" name="hobby[]" value="garden">gardening
+            <input type="checkbox" name="hobby[]" value="draw">Drawing
+            <input type="checkbox" name="hobby[]" value="novels">Reading novels
+            <input type="checkbox" name="hobby[]" value="sport">Sports
+        </p>
+        <p>
+            Date of Birth:
+            <select name="date">
+                <option value="">Date</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option> 
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option> 
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+            </select>
+            <select name="month">
+                <option value="">Month</option>
+                <option value="m1">1</option>
+                <option value="m2">2</option>
+                <option value="m3">3</option>
+                <option value="m1">4</option>
+                <option value="m5">5</option>
+                <option value="m6">6</option>
+                <option value="m7">7</option>
+                <option value="m8">8</option>
+                <option value="m9">9</option>
+                <option value="m10">10</option>
+                <option value="m11">11</option>
+                <option value="m12">12</option>
+            </select>
+            <select name="year">
+                <option value="">Year</option>
+                <option value="y0">2000</option>
+                <option value="y1">2001</option>
+                <option value="y2">2002</option>
+                <option value="y3">2003</option>
+                <option value="y4">2004</option>
+                <option value="y5">2005</option>
+                <option value="y6">2006</option>
+                <option value="y7">2007</option>
+                <option value="y8">2008</option>
+                <option value="y9">2009</option>
+                <option value="y10">2010</option>
+                <option value="y11">2011</option>
+                <option value="y12">2012</option>
+                <option value="y13">2013</option>
+                <option value="y14">2014</option>
+                <option value="y15">2015</option>
+                <option value="y16">2016</option>
+                <option value="y17">2017</option>
+                <option value="y18">2018</option>
+                <option value="y19">2019</option>
+                <option value="y20">2020</option>
+            </select>
+            </p>
+            <p>File Upload <input type="file" name="file"></p>
+            </form>
+        <p><br>to include two or more options use input type="radio" and set name and value to it for memory allocation<br>to select 
+        multiple option input type="checkbox" name=" []" value=""<br>to initiate dropdown list use select tag select name="", then
+        option value=""<br>to upload files input type=files name="", in order to move files to server form enctype="multipart/form-data"
+       </p>
+        <hr>
     </body>
 </html>
