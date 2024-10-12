@@ -3,14 +3,30 @@
         <title>New Webpage7</title>
     </head>
     <body>
-        <h1>Welcome to learn HTML</h1>
+        <h2>Welcome to learn HTML</h2>
         <h3>Tutorial 7</h3>
-        <h2>Login forms</h2>
-        <form>
+        <h1>Login forms</h1>
+        <form method="POST">
             <p><input type="text" name="fname" placeholder="First Name"></p>
             <p><input type="text" name="lname" placeholder="Last Name"></p>
-            <p>Username:<input type="text" name="user"></p>
-            <p>Password:<input type="text" name="pswrd"></p>
+            <p>Username:<input type="text" name="user" maxlength="25"></p>
+            <p>Password:<input type="password" name="pswrd"></p>
+            <input type="submit" value="Submit">
         </form>
+        <p>
+            <br>input type="text"->to make user input some data<br>inorder to store the value in memory of computer we use name tag name=" "
+            <br>placeholder=" "->is used to write the content in specified box<br>maxlength=" "->no.of characters user can input<br>
+            size=" "->no.of characters that is displayed in screen<br>input type="password"->in order to mask to characters entered in
+            password<br>input type="submit"->in order to submit the form<br>value=""->to set default value tot thart option<br>form method
+            ="POST"->to hide pswwrd and username in url when clicked submit button
+        </p>
+        <hr>
+        <h1>Comment form</h1>
+        <form>
+            <p>Name:<br><input type="text" name="name"></p>
+            <p>Username:<br><input type="text" name="user" maxlength="25"></p>
+            <p>Comments:<br><textarea name="comments" cols="30" rows="5" placeholder="Enter your comment"></textarea></p>
+        </form>
+        <p><br>textarea is not a selfclosing tag, to include no.of character to be displayed->cols and width of the field->rows</p>
     </body>
 </html>
