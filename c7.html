@@ -9,9 +9,9 @@
         <form method="POST">
             <p><input type="text" name="fname" placeholder="First Name"></p>
             <p><input type="text" name="lname" placeholder="Last Name"></p>
-            <p>Username:<input type="text" name="user" maxlength="25"></p>
-            <p>Password:<input type="password" name="pswrd"></p>
-            <input type="submit" value="Submit">
+            <p>Username:<br><input type="text" name="user" maxlength="25"></p>
+            <p>Password:<br><input type="password" name="pswrd"></p>
+            <input type="submit" value="Submit" name="login">
         </form>
         <p>
             <br>input type="text"->to make user input some data<br>inorder to store the value in memory of computer we use name tag name=" "
@@ -25,8 +25,23 @@
         <form>
             <p>Name:<br><input type="text" name="name"></p>
             <p>Username:<br><input type="text" name="user" maxlength="25"></p>
+            <p>Gender:<br><input type="radio" name="option" value="male">Male<input type="radio" name="option" value="female">Female</p>
             <p>Comments:<br><textarea name="comments" cols="30" rows="5" placeholder="Enter your comment"></textarea></p>
+            <p>
+                Hobbies interested at:<br>
+                <input type="checkbox" name="hobby[]" value="photo">Photography
+                <input type="checkbox" name="hobby[]" value="video">Video gaming
+                <input type="checkbox" name="hobby[]" value="music">Listening music
+                <input type="checkbox" name="hobby[]" value="dance">Dancing
+                <input type="checkbox" name="hobby[]" value="garden">gardening
+                <input type="checkbox" name="hobby[]" value="draw">Drawing
+                <input type="checkbox" name="hobby[]" value="novels">Reading novels
+                <input type="checkbox" name="hobby[]" value="sport">Sports
+            </p>
+            <p><input type="submit" value="Submit form" name="comment"></p>
         </form>
-        <p><br>textarea is not a selfclosing tag, to include no.of character to be displayed->cols and width of the field->rows</p>
+        <p><br>to include two or more options use input type="radio" and set name and value to it for memory allocation<br>textarea is 
+        not a selfclosing tag, to include no.of character to be displayed->cols and width of the field->rows<br>to select multiple 
+        option input type="checkbox" name=" []" value=""</p>
     </body>
 </html>
