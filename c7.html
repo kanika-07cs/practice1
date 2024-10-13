@@ -4,14 +4,16 @@
     </head>
     <body>
         <h2>Welcome to learn HTML</h2>
-        <h3>Tutorial 7</h3>
-        <h1>Login forms</h1>
+        <h3>Tutorial 7</h3> 
         <form method="POST">
+            <fieldset>
+            <legend>Login forms</legend>
             <p><input type="text" name="fname" placeholder="First Name"></p>
             <p><input type="text" name="lname" placeholder="Last Name"></p>
-            <p>Username:<br><input type="text" name="user" maxlength="25"></p>
-            <p>Password:<br><input type="password" name="pswrd"></p>
+            <p><label>Username:</label><br><input type="text" name="user" maxlength="25"></p>
+            <p><label>Password:</label><br><input type="password" name="pswrd"></p>
             <input type="submit" value="Submit" name="login">
+        </fieldset>
         </form>
         <p>
             <br>input type="text"->to make user input some data<br>inorder to store the value in memory of computer we use name tag name=" "
@@ -21,21 +23,25 @@
             ="POST"->to hide pswwrd and username in url when clicked submit button
         </p>
         <hr>
-        <h1>Comment form</h1>
         <form>
-            <p>Name:<br><input type="text" name="name"></p>
-            <p>Username:<br><input type="text" name="user" maxlength="25"></p>
-            <p>Comments:<br><textarea name="comments" cols="30" rows="5" placeholder="Enter your comment"></textarea></p>
+            <fieldset>
+            <legend>Comment form</legend>
+            <p><label for="name">Name:</label><br><input type="text" name="name" id="name"></p>
+            <p><label for="user">Username:</label><br><input type="text" name="user" id ="user" maxlength="25"></p>
+            <p><label>Comments:</label><br><textarea name="comments" cols="30" rows="5" placeholder="Enter your comment"></textarea></p>
             <p><input type="submit" value="Submit form" name="comment"></p>
+        </fieldset>
         </form>
         <p><br>textarea is not a selfclosing tag, to include no.of character to be displayed->cols and width of the field->rows</p>
-        <br>
         <hr>
-        <h1>Radio,Checkbox,Dropdown list</h1>
         <form enctype="multipart/form-data">
-        <p>Gender:<br><input type="radio" name="option" value="male">Male<input type="radio" name="option" value="female">Female</p>
+            <fieldset>
+            <h1>Radio,Checkbox,Dropdown list</h1>
+        <p>Gender:<br>
+            <input type="radio" name="option" value="male" id="male"><label for="male">Male</label>
+            <input type="radio" name="option" value="female" id="female"><label for="female">Female</label></p>
         <p>
-            Hobbies interested at:<br>
+            <label>Hobbies interested at:</label><br>
             <input type="checkbox" name="hobby[]" value="photo">Photography
             <input type="checkbox" name="hobby[]" value="video">Video gaming
             <input type="checkbox" name="hobby[]" value="music">Listening music
@@ -46,7 +52,7 @@
             <input type="checkbox" name="hobby[]" value="sport">Sports
         </p>
         <p>
-            Date of Birth:
+            <label>Date of Birth:</label>
             <select name="date">
                 <option value="">Date</option>
                 <option value="1">1</option>
@@ -121,7 +127,8 @@
             </select>
             </p>
             <p>File Upload <input type="file" name="file"></p>
-            </form>
+        </fieldset>    
+        </form>
         <p><br>to include two or more options use input type="radio" and set name and value to it for memory allocation<br>to select 
         multiple option input type="checkbox" name=" []" value=""<br>to initiate dropdown list use select tag select name="", then
         option value=""<br>to upload files input type=files name="", in order to move files to server form enctype="multipart/form-data"
