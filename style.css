@@ -4,11 +4,12 @@
 }*/
 h1{
     /* all h1 tags*/
-    color:darkorchid;
+    /*color:darkorchid;*/
     /*background-color: azure;*/
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 40px;
 }
+/*intro class*/
 .intro h1{
     /* class which holds h1*/
     color: brown;
@@ -21,6 +22,7 @@ h1{
     /*class which holds p tag*/
     font-size: 30px;
 }
+/*intro2 class*/
 .intro2 {
     color:darkblue;
     font-weight: bold;
@@ -32,4 +34,33 @@ h1{
     background-repeat: repeat;
     /*includes backgroung size*/
     /*background-size: cover;*/
+}
+/*intro3 class*/
+.intro3 h1{
+    /*border tags specification*/
+    color: blueviolet;
+    /*border alignment*/
+    border-style: dashed;
+    border-top: dotted;
+    border-left: solid;
+    border-right: solid;
+    border-width: 5px;
+    border-color: chartreuse;
+    border-radius: 10px; /*changes the rectangle shape*/
+}
+.intro3{
+    background-color: bisque;
+    color: darkorange;
+}
+/*intro4 class*/
+.intro4{
+    background-color: blanchedalmond;
+   font-size: 20px;
+}
+.intro4 button{
+    border-color: aquamarine;
+    border-width: 3px;
+    border-radius: 5px;
+    /*margin-top: 20px;*/
+    margin: 10px 5px 10px 10px; /*top right bottom left(clockwise-direction)*/
 }
