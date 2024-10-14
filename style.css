@@ -100,3 +100,46 @@ h1{
    /*word-spacing: 5px;*/
    line-height: 1.5;
 }
+/*intro8 class*/
+.intro8{
+    background-color: rgb(218, 162, 142);
+    padding: 5px;
+}
+.intro8 a{
+    color: limegreen;
+}
+.intro8 a:link{
+    color:blue;
+}
+.intro8 a:active{
+    color: maroon;
+}
+.intro8 a:hover{
+    color: rebeccapurple;
+}
+.fb{
+    padding: 5px;
+    color: azure;
+    background-color: blueviolet;
+    border-color: chocolate;
+    border-radius: 8px;
+}
+.wa{
+    padding: 5px;
+    color: aliceblue;
+    background-color: forestgreen;
+    border-color: chocolate;
+    border-radius: 8px;
+}
+.intro9{
+    margin: 30px;
+    background-color: aquamarine;
+}
+ol{
+    padding: 2px;
+    background-color: chocolate;
+    color: green;
+    list-style-type: square;
+    list-style-position: inside;
+    /*list-style-image: url();*/ /*to give image bulletin*/
+}
