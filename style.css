@@ -1,0 +1,35 @@
+/**{
+    background-color: beige;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}*/
+h1{
+    /* all h1 tags*/
+    color:darkorchid;
+    /*background-color: azure;*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+.intro h1{
+    /* class which holds h1*/
+    color: brown;
+}
+.intro{
+    /* class */
+    background-color: burlywood;
+}
+.intro p{
+    /*class which holds p tag*/
+    font-size: 30px;
+}
+.intro2 {
+    color:darkblue;
+    font-weight: bold;
+    font-size: 20px;
+    /*background tags specification*/
+    background-image: url("img8.jpg");
+    background-color: darksalmon;
+    height: 600px;
+    background-repeat: repeat;
+    /*includes backgroung size*/
+    /*background-size: cover;*/
+}
