@@ -220,3 +220,36 @@ tr:hover{
     border-width: 3px;
     border-style: dotted;
 }
+.intro12{
+    background-color: darkgray;
+    margin: 50px;
+    padding: 40px;
+    color: azure;
+}
+.intro12 img{
+    float: left;
+    background-color: indianred;
+    margin-right: 10px;
+    padding: 10px;
+}
+#intro13{
+    padding: 80px 0;
+    text-align: center;
+    width: 100px;
+}
+.green{
+    background-color: green;
+    float: left;
+}
+.blue{
+    background-color: blue;
+    float: left;
+}
+.orange{
+    background-color: orange;
+    float: right;
+}
+.red{
+    background-color: red;
+    float: right;
+}
