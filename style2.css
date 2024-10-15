@@ -50,3 +50,11 @@
     background-color: antiquewhite;
     color: black;
 }
+.intro2{
+    background-color: black;
+    width: 250px;
+}
+.intro2 img{
+    width: 250px;
+    opacity: 0.2;
+}
