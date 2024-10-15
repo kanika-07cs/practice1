@@ -56,5 +56,5 @@
 }
 .intro2 img{
     width: 250px;
-    opacity: 0.2;
+    opacity: 0.2; /*gives resolution/brightness*/
 }
