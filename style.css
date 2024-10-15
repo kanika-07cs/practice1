@@ -123,6 +123,7 @@ h1{
     background-color: blueviolet;
     border-color: chocolate;
     border-radius: 8px;
+    margin: 2px;
 }
 .wa{
     padding: 5px;
@@ -130,6 +131,7 @@ h1{
     background-color: forestgreen;
     border-color: chocolate;
     border-radius: 8px;
+    margin: 2px;
 }
 .intro9{
     margin: 30px;
@@ -143,3 +145,32 @@ ol{
     list-style-position: inside;
     /*list-style-image: url();*/ /*to give image bulletin*/
 }
+/*intro10 class*/
+.intro10{
+    background-color: aqua;
+}
+/*table tags*/
+table{
+    width:80%;
+    text-align: center;
+}
+th{
+    font-size: 20px;
+    padding: 10px;
+    background-color: coral;
+}
+td{
+    padding: 10px ;
+}
+/*to give alternate color to rows*/
+tr:nth-last-child(even){
+    background-color: aquamarine;
+}
+/*when cursor moved the colr changes*/
+tr:hover{
+    background-color: blueviolet;
+}
+/*.{
+    display: none;  //it removes the element and gets overlapped
+    visibility: hidden; //it removes the element by leaving some spacee
+}*/
