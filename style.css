@@ -192,7 +192,7 @@ tr:hover{
     left: 25px;
     border-style: dotted;
 }
-.fixed {
+/*.fixed {
     position: fixed;
     bottom: 0;
     left: 0;
@@ -203,7 +203,7 @@ tr:hover{
     border-width: 3px;
     background-color: brown;
     border-style: dotted;
-}
+}*/
 .relatives{
     position: relative;
     left:30%;
@@ -232,8 +232,8 @@ tr:hover{
     margin-right: 10px;
     padding: 10px;
 }
-#intro13{
-    padding: 80px 0;
+#intro13 > div{
+    padding: 20px 0;
     text-align: center;
     width: 100px;
 }
@@ -253,3 +253,7 @@ tr:hover{
     background-color: red;
     float: right;
 }
+/*to clear text and brings down*/
+/*.class{
+    clear: both;
+}*/

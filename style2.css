@@ -1,0 +1,52 @@
+.weblayout-example > div{ /*child selector*/
+    padding: 10px 0;
+    text-align: center;
+    margin: 5px 0;
+}
+.navbar{
+    background-color: greenyellow;
+}
+.menu{
+    background-color: darkblue;
+    float: left;
+    width: 33%;
+    height: 100px;
+}
+.content{
+    background-color: skyblue;
+    float: left;
+    width: 33%;
+    height: 100px;
+}
+.sidebar{
+    background-color: orange;
+    float: left;
+    width: 33%;
+    height: 100px;
+}
+.footer{
+    background-color: brown;
+    clear: both; /*to avoid overlapping*/
+}
+
+/* Selctors
+.class name + tag   adjacent sibling selector(+) //prints only one text to child selector
+.class name ~ tag   general sibling selector(+) //prints all text to child selector
+*/
+.intro1{
+    background-color: aqua;
+    color: fuchsia;
+}
+/*Pseudo elements*/
+.intro1 >p::first-letter{  /*displays only 1st letter*/
+    color: orangered;
+    font-size: 20px;
+    font-weight: bold;
+}
+.intro1 >h3::after{ /*to add elements after/before the tag specified*/
+    content: ":) :)";
+}
+::selection{ /*while selecting*/
+    background-color: antiquewhite;
+    color: black;
+}
