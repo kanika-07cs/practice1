@@ -8,11 +8,18 @@
 <body>
     <h1>Welcome to learn JavaScript</h1>
     <button onclick="colorBlack()">Black</button>
+    <h1 class="in1">Hello</h1>
+    <button onclick="hello()">Click</button>
 
     <script>
         function colorBlack(){
-            document.body.style.background="gray";
-            document.querySelector('h1').style.color="white";
+            document.body.style.background="gray";  //to change backgorund colour
+            document.querySelector('h1').style.color="white";   // to change text colour
+        }
+        function hello(){
+            let text=document.querySelector(".in1");
+            text.innerHTML="Hello, welcome here!";  // to change text when clicked
+            document.querySelector('.in1').style.color="green";  // to change text colour
         }
     </script>
 </body>
